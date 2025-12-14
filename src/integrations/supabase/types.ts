@@ -140,6 +140,7 @@ export type Database = {
           rent: number | null
           tax: number | null
           toll: number | null
+          uber_subscription: number | null
           total_amount: number | null
           updated_at: string | null
           week_end_date: string

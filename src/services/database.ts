@@ -26,6 +26,7 @@ export interface WeeklyEarning {
   tax: number;
   toll: number;
   rent: number;
+  uber_subscription?: number | null;
   adjustment: number;
   other: number;
   total_amount: number;
